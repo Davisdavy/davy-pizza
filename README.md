@@ -2,8 +2,6 @@
 
 #### Pizza Web AppWebsite, Monday June.
 
-#### By Davis
-
 ### By Davis
 
 ### Behaviour Driven Development (BDD)
