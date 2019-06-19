@@ -18,7 +18,6 @@ As for now some of the parts can not function as required
 
 
 ### Desktop View
-
 ![](css/images/1.png)
 
 ![](css/images/2.png)
