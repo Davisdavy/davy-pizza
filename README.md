@@ -51,7 +51,6 @@ The web functionality is best in an internet connected.
     This was the solid foundation language used to create the skeleton of the web.
 
  ##### Css
-
     Styled the sizings, postionings and altered some default bootstrap
 
 #### Bootstrap
