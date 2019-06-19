@@ -64,6 +64,8 @@ The web functionality is best in an internet connected.
   #### Jquery
 
     This library  handled the hover and toggle events.
+    
+ ### Contact and Support
 
   Want to get in touch?
   * Email me davisdavy96@gmail.com
