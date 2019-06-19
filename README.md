@@ -68,6 +68,7 @@ The web functionality is best in an internet connected.
  ### Contact and Support
 
   Want to get in touch?
+  
   * Email me davisdavy96@gmail.com
   * slack @moringaschool (Davis W)
   * Github Davisdavy
