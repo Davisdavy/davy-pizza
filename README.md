@@ -4,13 +4,13 @@
 
 ### By Davis
 
-### Behaviour Driven Development (BDD)
+### Behaviour Driven Development (BDD).
 
 | Behaviour expected to be handled | Order Pizza           | Output Example            |
 | -------------------------------- | -----------------------|---------------------------|           
 |Choose a pizza                  |  Choose the toppings,crust and size  |  Price determined|
 |Order without choosing the type    | Determine the price    |    Order on the way         |
-### Description
+### Description.
 
 This website is an application of a pizza fictional resturant. It show the type of pizza a castomer can choose and order.
 The app is still under construction.
