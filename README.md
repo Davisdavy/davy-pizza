@@ -57,7 +57,7 @@ The web functionality is best in an internet connected.
 
     This library  handled the hover and toggle events.
     
- ### Contact and Support
+ #### Contact and Support
 
   Want to get in touch?
 
