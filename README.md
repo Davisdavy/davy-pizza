@@ -75,7 +75,7 @@ The web functionality is best in an internet connected.
 
 MIT License
 
-Copyright (c) [2019] [Davis Wafula]
+Copyright (c) [2019] [Davis wafula]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
