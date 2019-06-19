@@ -65,7 +65,6 @@ $(document).ready(function () {
  }); }); 
    /****************User Interface Logic******************* */
   
-   
    if (document.readyState == 'loading') {
     document.addEventListener('DOMContentLoaded', ready)
 } else {
@@ -77,37 +76,8 @@ function ready() {
     for (var i = 0; i < removeCartItemButtons.length; i++) {
         var button = removeCartItemButtons[i]
         button.addEventListener('click', removeCartItem)
+    }
 
-function PlaceAnOrder(size,topping,crust){
-    this.size = size;
-    this.crust = crust;
-    this.topping = topping;
-    this.defaultPizzaPrice = 2;
-    this.mushrooms = 0.5;
-    this.greenpepper= 1.5;
-    this.pepperoni = 1;
-    this.extraCheese = 1.5;
-
-}
-var myPriceBox = [];
-/***************Prototype that checks the size,crust and topping to determine the price */
-
-PlaceAnOrder.prototype.checkPizzaSizeToppingsCrust = function (){
-    if(this.size === "small"){
-        this.defaultPizzaPrice +=1;
-    }
-    else if (this.size ==="Large"){
-        this.defaultPizzaPrice += 3;
-    }
-    else if(this.size === "Medium"){
-        this.defaultPizzaPrice + 2;
-    }
-    else if(this.size === "Extra Large"){
-        this.defaultPizzaPrice + 4;
-    }
-      /********************loop for toppings */
-    if(this.topping === "Mushrooms" ){
-    }
     var quantityInputs = document.getElementsByClassName('cart-quantity-input')
     for (var i = 0; i < quantityInputs.length; i++) {
         var input = quantityInputs[i]
@@ -177,10 +147,10 @@ function addItemToCart(title, price, imageSrc) {
             <input class="cart-quantity-input" type="number" value="1">
             <button class="btn btn-danger" type="button">REMOVE</button>
         </div>`
-    cartRow.innerHTML = cartRowContents;
-    cartItems.append(cartRow);
-    cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click', removeCartItem);
-    cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged);
+    cartRow.innerHTML = cartRowContents
+    cartItems.append(cartRow)
+    cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click', removeCartItem)
+    cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged)
 }
 
 function updateCartTotal() {
@@ -196,5 +166,5 @@ function updateCartTotal() {
         total = total + (price * quantity)
     }
     total = Math.round(total * 100) / 100
-    document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total;
-  };
+    document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total
+}
