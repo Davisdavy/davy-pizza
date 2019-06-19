@@ -4,15 +4,6 @@
 
 #### By Davis
 
-## Behaviour Driven Development (BDD)
-
-| Behaviour expected to be handled | Order Pizza           | Output Example            |
-| -------------------------------- | -------------------------- |------------------------------------            
-|Choose a pizza                  |  Choose the toppings,crust and size  |  Price determined|
-|Order without choosing the type    | Determine the price|Order on the way|
-
-## Pizza Web AppWebsite
-
 ### By Davis
 
 ### Behaviour Driven Development (BDD)
@@ -68,7 +59,7 @@ The web functionality is best in an internet connected.
  ### Contact and Support
 
   Want to get in touch?
-  
+
   * Email me davisdavy96@gmail.com
   * slack @moringaschool (Davis W)
   * Github Davisdavy
