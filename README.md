@@ -32,7 +32,7 @@ As for now some of the parts can not function as required
 To set up, click the link and redirected to a working github page website.
   *Chrome/safari/IE
 
-## Known Bugs
+## Known --Bugs
 
 The web functionality is best in an internet connected. 
 
