@@ -46,7 +46,6 @@ The web functionality is best in an internet connected.
 
 ## Technologies Used
 
-
   #### HTML
 
     This was the solid foundation language used to create the skeleton of the web.
